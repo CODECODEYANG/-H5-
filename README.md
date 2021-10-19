@@ -1,5 +1,4 @@
-# -H5-
-微信小程序和H5间的通信
+# 微信小程序和H5间的通信
 
 1.h5向小程序发送消息，根据官方文档（https://developers.weixin.qq.com/miniprogram/dev/component/web-view.html），网页向小程序 postMessage 时，会在特定时机（小程序后退、组件销毁、分享）触发并收到消息。小程序页面通过 bindmessage 绑定的函数读取 post 信息。
 
